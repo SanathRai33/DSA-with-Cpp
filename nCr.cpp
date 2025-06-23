@@ -6,7 +6,6 @@ int factorial(int a){
     for(int i=1; i<=a; i++){
         fact*=i;
     }
-    cout << "Factorial of " << a << " is: " << fact << endl;
     return fact;
 }
 
